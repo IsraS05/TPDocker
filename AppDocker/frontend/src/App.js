@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 // URL de l'API backend
-const API_URL = 'http://192.168.10.132:8080/api';
+const API_URL = 'http://localhost:8080/api';
 
 function App() {
   const [todos, setTodos] = useState([]);
